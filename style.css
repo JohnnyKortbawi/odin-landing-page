@@ -55,7 +55,8 @@ ul {
 
 .header-info {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 32px;
   padding: 8px 16px;
   flex: 1;
 }
@@ -63,6 +64,8 @@ ul {
 .header-title {
   font-size: 48px;
   font-weight: 900;
+  flex-shrink: 0;
+  width: 425px;
 }
 
 .header-description {
@@ -70,8 +73,18 @@ ul {
   max-width: 600px;
 }
 
+.header-image {
+  width: 450px;
+  border-radius: 5%;
+  background-color: white;
+  padding: 5px;
+}
+
 .content {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .quote {
@@ -84,4 +97,15 @@ ul {
 
 .footer {
   background-color: #1F2937;
+}
+
+.parallax-office-background {
+  background-image: url('./images/Office\ Image\ 1.1.jpg');
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
