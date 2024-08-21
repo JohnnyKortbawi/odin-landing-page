@@ -26,10 +26,10 @@ button {
   display: flex;
   flex-direction: column;
   padding: 6px 24px;
+  padding-bottom: 48px;
 }
 
 .header-logo {
-  padding: 8px 16px;
   border-radius: 18px;
   width: 60px;
 }
@@ -44,21 +44,21 @@ ul {
   margin: 0;
   padding: 0;
   display: flex;
-  gap: 16px;
+  gap: 24px;
 }
 
 .header-ribbon {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px 16px;
 }
 
 .header-info {
   display: flex;
   justify-content: flex-start;
-  gap: 32px;
+  gap: 72px;
   padding: 8px 16px;
-  flex: 1;
 }
 
 .header-title {
@@ -71,6 +71,7 @@ ul {
 .header-description {
   margin-bottom: 8px;
   max-width: 600px;
+  padding: 16px 0px;
 }
 
 .header-image {
@@ -82,9 +83,58 @@ ul {
 
 .content {
   background-color: white;
+  padding: 8px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 32px;
+  padding: 32px;
+  padding-bottom: 48px;
+}
+
+.content-block-section {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 64px;
+}
+
+.content-block {
+  flex-basis: 10%;
+  text-align: center;
+}
+
+.content-block-image-border {
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+  padding: 16px;
+  
+  width: 100px;
+  height: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-block-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+  padding: 1rem;
+  color: white;
+
+  /* border-width: 4px;
+  border-style: solid;
+  border-image: 
+    linear-gradient(
+      to bottom,
+      #0069fd51, 
+      #3882f6
+    ) 1 ;
+   */
+
 }
 
 .quote {
