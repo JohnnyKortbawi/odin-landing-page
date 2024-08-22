@@ -62,6 +62,8 @@ a:active {
   justify-content: space-between;
   align-items: center;
   padding: 8px 16px;
+
+  /* background-color: #1F2937; */
 }
 
 .header-info {
