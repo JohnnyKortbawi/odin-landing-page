@@ -179,10 +179,34 @@ ul {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 64px;
+}
+
+.call-header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.call-description {
+  color: #E5E7EB;
+}
+
+.sign-up-button {
+  border: 2px solid white;
 }
 
 .footer {
   background-color: #1F2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+
+.copyright-label {
+  font-size: 18px;
+  color: #E5E7EB;
 }
 
 .parallax-office-background1 {
