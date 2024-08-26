@@ -16,6 +16,19 @@ button {
   padding: 8px 16px;
   border-radius: 8px;
   border-width: 0px;
+  transition-duration: 0.2s;
+}
+
+
+button:hover {
+  background-color:  white;
+  color: #3882f6;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+button:active {
+  translate: 0px 1px 0px;
 }
 
 .header-ribbon-list {
@@ -28,12 +41,12 @@ button {
 
 a:hover {
   color: #cbdfff;
+  cursor: pointer;
 }
 
 a:active {
   color: white;
 }
-
 
 .header, .sign-up, .footer {
   color: white;
